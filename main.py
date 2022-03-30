@@ -21,3 +21,8 @@ def errores(lista):
 print(errores(arr))
     
 
+if __name__ == "__main__":
+   print(f'mi nombres es >> {__name__}<<')
+
+else:
+    print (f'Importado como modulo: >>{__name__}<<')
