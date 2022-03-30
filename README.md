@@ -1,0 +1,1 @@
+resumen_de_lista
