@@ -1,11 +1,16 @@
-arr = ['a']
+arr = ['a','b','c']
 
 def errores(lista):
-    if lista  == []: #en el caso de que no haya ningun elemento
-        return 'No List'
+
+    if not(isinstance(lista, list)):
+        return None
+
+
+    elif lista  == []: #en el caso de que no haya ningun elemento
+        return None
 
     elif len(lista) < 2 : #en el caso que solo haya un solo elemento
-        return 'No List'
+        return None
 
     else:
         def ultimo_primer_carracter(lista):
